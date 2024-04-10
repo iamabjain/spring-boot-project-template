@@ -1,10 +1,10 @@
-package ru.gozhan.javaprojecttemplate;
+package ru.gozhan.javaprojecttemplate.test;
 
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;
-import ru.gozhan.javaprojecttemplate.config.Endpoint;
+import ru.gozhan.javaprojecttemplate.test.config.Endpoint;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
@@ -12,7 +12,7 @@ import static org.hamcrest.Matchers.equalTo;
 class ContextLoadIntegrationTest extends AbstractIntegrationTest {
 
     @Test
-    @DisplayName("Test that context is loaded")
+    @DisplayName("Test that app has been started.")
     void contextLoads() {
         given().spec(requestSpecification)
                 .when()

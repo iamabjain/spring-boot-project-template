@@ -1,4 +1,4 @@
-package ru.gozhan.javaprojecttemplate.config;
+package ru.gozhan.javaprojecttemplate.test.config;
 
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;
 import org.springframework.context.annotation.Bean;

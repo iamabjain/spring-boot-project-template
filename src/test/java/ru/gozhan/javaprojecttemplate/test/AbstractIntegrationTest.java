@@ -1,4 +1,4 @@
-package ru.gozhan.javaprojecttemplate;
+package ru.gozhan.javaprojecttemplate.test;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
@@ -8,7 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.context.annotation.Import;
 import org.springframework.test.context.ActiveProfiles;
-import ru.gozhan.javaprojecttemplate.config.PostgresTestContainerConfiguration;
+import ru.gozhan.javaprojecttemplate.test.config.PostgresTestContainerConfiguration;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @ActiveProfiles("test")

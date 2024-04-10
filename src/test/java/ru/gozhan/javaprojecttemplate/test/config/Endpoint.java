@@ -1,4 +1,4 @@
-package ru.gozhan.javaprojecttemplate.config;
+package ru.gozhan.javaprojecttemplate.test.config;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
